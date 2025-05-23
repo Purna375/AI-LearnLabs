@@ -142,25 +142,6 @@ API documentation is available at `/api/docs` when running the development serve
 - `POST /api/ai/generate` - Generate course content with AI
 - `GET /api/analytics/:courseId` - Get course analytics
 
-## 🚀 Deployment
-
-### Docker Deployment
-
-```bash
-# Build and run with Docker Compose
-docker-compose up --build
-```
-
-### Manual Deployment
-
-1. **Build the application**
-   ```bash
-   npm run build
-   ```
-
-2. **Set production environment variables**
-
-3. **Deploy to your preferred platform** (AWS, Heroku, Vercel, etc.)
 
 ## 🔧 Configuration
 
@@ -194,7 +175,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- OpenAI for providing powerful AI capabilities
+- Gemini for providing powerful AI capabilities
 - The open-source community for amazing tools and libraries
 - Contributors who helped improve this project
 
