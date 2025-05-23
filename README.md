@@ -171,7 +171,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Purna375**
 - GitHub: [@Purna375](https://github.com/Purna375)
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
+- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/purnachandrashekar/)
 
 ## 🙏 Acknowledgments
 
@@ -185,7 +185,6 @@ If you encounter any issues or have questions:
 
 1. Check the [Issues](https://github.com/Purna375/AI-LearnLabs/issues) page
 2. Create a new issue with detailed information
-3. Join our [Discord community](https://discord.gg/your-invite) for real-time support
 
 ## 🗺️ Roadmap
 
