@@ -28,10 +28,9 @@ An intelligent learning management system powered by AI that enables automated c
 
 - **Frontend**: React.js, TypeScript, Tailwind CSS
 - **Backend**: Node.js, Express.js
-- **Database**: MongoDB/PostgreSQL
-- **AI/ML**: OpenAI API, TensorFlow.js
-- **Authentication**: JWT, OAuth 2.0
-- **Deployment**: Docker, AWS/Vercel
+- **Database**: PostgreSQL (Neon Drizzle ORM)
+- **AI/ML**: Gemini API
+- **Authentication**: JWT, clerk Auth
 
 ## 🚀 Getting Started
 
@@ -39,8 +38,8 @@ An intelligent learning management system powered by AI that enables automated c
 
 - Node.js (v18 or higher)
 - npm or yarn
-- MongoDB/PostgreSQL database
-- OpenAI API key
+- Neon Drizzle ORM PostgreSQL database
+- Gemini API key
 
 ### Installation
 
@@ -64,7 +63,7 @@ An intelligent learning management system powered by AI that enables automated c
 3. **Environment Setup**
    ```bash
    # Copy environment variables
-   cp .env.example .env
+   cp .env
    ```
    
    Configure your `.env` file:
@@ -86,7 +85,7 @@ An intelligent learning management system powered by AI that enables automated c
 
 4. **Database Setup**
    ```bash
-   # Run database migrations
+   # Run database migrations (optional)
    npm run migrate
    
    # Seed initial data (optional)
@@ -145,23 +144,6 @@ API documentation is available at `/api/docs` when running the development serve
 
 ## 🔧 Configuration
 
-### AI Model Configuration
-
-Customize AI behavior in `config/ai.js`:
-
-```javascript
-module.exports = {
-  openai: {
-    model: 'gpt-4',
-    temperature: 0.7,
-    maxTokens: 2000
-  },
-  courseGeneration: {
-    maxChapters: 10,
-    defaultDifficulty: 'intermediate'
-  }
-};
-```
 
 ## 📄 License
 
